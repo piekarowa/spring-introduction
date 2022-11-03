@@ -8,6 +8,7 @@ import java.util.Random;
 @Component
 public class ProductDiscountApplier {
 
+
     public Product applyDiscount(Product product){
         BigDecimal discount = getDiscount(product.getPrice());
         product.applyDiscount(discount);

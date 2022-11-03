@@ -20,7 +20,7 @@ public class Product {
     }
 
     public long getId() {
-        return id;
+        return this.id;
     }
 
     public BigDecimal getPrice() {
